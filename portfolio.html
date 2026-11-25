@@ -1,17 +1,185 @@
 
-<section class="section avatar-placeholder">
-  <p class="eyebrow">AI INTRODUCTION</p>
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Бекзат Жанеркенің жеке портфолиосы">
+    <title>Портфолио | Жанерке</title>
 
-  <h2>Менің цифрлық аватарым</h2>
+    <!-- CSS байланысы -->
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-  <p>HeyGen платформасында жасалған таныстыру бейнеролигім.</p>
+<body>
 
-  <video class="avatar-video" controls preload="metadata" playsinline>
-    <source src="avatar.mp4" type="video/mp4">
-    Браузеріңіз бейнені қолдамайды.
-  </video>
+<header class="site-header">
+    <a class="brand" href="index.html">ЖАНЕРКЕ<span>.</span></a>
 
-  <p class="muted small">
-    Бейнеролик жасанды интеллект көмегімен әзірленді.
-  </p>
-</section>
+    <button class="menu-toggle" aria-label="Мәзірді ашу">☰</button>
+
+    <nav class="nav">
+        <a href="index.html">Басты бет</a>
+        <a href="about.html">Мен туралы</a>
+        <a href="skills.html">Дағдылар</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="contact.html">Байланыс</a>
+    </nav>
+
+    <button class="theme-toggle" aria-label="Түсті режим">◐</button>
+</header>
+
+<main>
+
+    <!-- БЕТ ТАҚЫРЫБЫ -->
+    <section class="page-heading">
+        <p class="eyebrow">MY CREATIVE SPACE</p>
+        <h1>Менің портфолиом</h1>
+        <p class="lead">
+            Білімім, шығармашылығым және цифрлық жобаларым.
+        </p>
+    </section>
+
+    <!-- ЖОБАЛАР -->
+    <section class="section">
+        <p class="eyebrow">MY PROJECTS</p>
+        <h2>Менің жобаларым</h2>
+
+        <div class="cards">
+
+            <article class="card project-card">
+                <span class="tag">TELEGRAM BOT</span>
+                <h2>🎬 CineMate</h2>
+                <p>
+                    Telegram платформасында жасалған
+                    фильм ұсыну чат-боты. Пайдаланушының
+                    көңіл күйі мен талғамына қарай кино
+                    таңдауға көмектеседі.
+                </p>
+            </article>
+
+            <article class="card project-card">
+                <span class="tag">ARTIFICIAL INTELLIGENCE</span>
+                <h2>🤖 Жасанды интеллект</h2>
+                <p>
+                    ЖИ құралдарының көмегімен
+                    цифрлық жобалар, презентациялар,
+                    бейнематериалдар және шығармашылық
+                    жұмыстар әзірлеу.
+                </p>
+            </article>
+
+            <article class="card project-card">
+                <span class="tag">DIGITAL DESIGN</span>
+                <h2>🎨 Дизайн және медиа</h2>
+                <p>
+                    Canva және CapCut бағдарламалары
+                    арқылы визуалды материалдар,
+                    бейнероликтер және презентациялар жасау.
+                </p>
+            </article>
+
+            <article class="card project-card">
+                <span class="tag">EDUCATION</span>
+                <h2>📊 Оқу жобалары</h2>
+                <p>
+                    Менеджмент, экономика және
+                    цифрлық технологиялар бағытындағы
+                    зерттеу жұмыстары мен тапсырмалар.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ДАҒДЫЛАР -->
+    <section class="section">
+        <p class="eyebrow">MY SKILLS</p>
+        <h2>Қолданатын бағдарламаларым</h2>
+
+        <div class="cards">
+            <article class="card">
+                <h3>Canva</h3>
+                <p>Презентация және графикалық дизайн.</p>
+            </article>
+
+            <article class="card">
+                <h3>CapCut</h3>
+                <p>Видео өңдеу және монтаж.</p>
+            </article>
+
+            <article class="card">
+                <h3>Microsoft Excel</h3>
+                <p>Кестелер, формулалар және деректерді талдау.</p>
+            </article>
+
+            <article class="card">
+                <h3>PowerPoint</h3>
+                <p>Презентациялар әзірлеу.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- AI VIDEO -->
+    <section class="section avatar-placeholder" id="video">
+        <p class="eyebrow">AI INTRODUCTION</p>
+        <h2>Менің цифрлық аватарым</h2>
+
+        <p class="muted">
+            HeyGen платформасында жасалған
+            жеке видео-таныстырылымым.
+        </p>
+
+        <video class="avatar-video"
+               controls
+               preload="metadata"
+               playsinline>
+
+            <source src="./avatar.mp4" type="video/mp4">
+
+            Браузеріңіз видеоны қолдамайды.
+        </video>
+
+        <p class="muted small">
+            Бейнеролик жасанды интеллект көмегімен әзірленді.
+        </p>
+    </section>
+
+    <!-- СЕРТИФИКАТТАР -->
+    <section class="section">
+        <p class="eyebrow">ACHIEVEMENTS</p>
+        <h2>Сертификаттарым</h2>
+
+        <div class="certificate-list">
+            <p>✦ Overview AI</p>
+            <p>✦ Search and AI</p>
+        </div>
+    </section>
+
+    <!-- БАЙЛАНЫС -->
+    <section class="section">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Болашаққа бірге қадам!</h2>
+        <p class="muted">
+            Жаңа білім алуға, тәжірибе жинауға
+            және қызықты жобаларға қатысуға дайынмын.
+        </p>
+
+        <div class="actions">
+            <a href="contact.html" class="btn">
+                Менімен байланысу
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <span>© 2026 Бекзат Жанерке</span>
+    <span>Narxoz University · Менеджмент</span>
+</footer>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
