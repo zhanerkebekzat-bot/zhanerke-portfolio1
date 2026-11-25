@@ -1,1 +1,1 @@
-Жанерке — жеке сайт-портфолио. index.html файлын браузерде ашыңыз немесе VS Code-та Live Server қолданыңыз. Бес бет: index.html, about.html, skills.html, portfolio.html, contact.html. HeyGen видеосы videos/avatar.mp4 ретінде портфолио бетіне енгізілді. Түйіндеме documents бумасында.
+Жанерке — жеке сайт-портфолио. index.html файлын браузерде ашыңыз немесе VS Code-та Live Server қолданыңыз. Бес бет: index.html, about.html, skills.html, portfolio.html, contact.html. HeyGen видеосы avatar.mp4 ретінде портфолио бетіне енгізілді. Түйіндеме documents бумасында.
